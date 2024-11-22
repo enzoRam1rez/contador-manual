@@ -13,13 +13,13 @@ Este proyecto consiste en un contador manual de personas desarrollado con Vue.js
 
 Sigue estos pasos para instalar y ejecutar el proyecto:
 1.	Clona el repositorio en tu máquina local:
--git clone https://github.com/enzoRam1rez/contador-manual.git
+git clone https://github.com/enzoRam1rez/contador-manual.git
 2.	Accede al directorio del proyecto:
--cd contador-manual
+cd contador-manual
 3.	Instala las dependencias necesarias:
--npm install
+npm install
 4.	Inicia el servidor de desarrollo:
--npm run dev
+npm run dev
 5.	Abre el navegador y accede a la dirección proporcionada para interactuar con la aplicación.
 
 ### Notas importantes:
