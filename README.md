@@ -22,13 +22,14 @@ Sigue estos pasos para instalar y ejecutar el proyecto:
 -npm run dev
 5.	Abre el navegador y accede a la dirección proporcionada para interactuar con la aplicación.
 
-Notas importantes:
-    -Asegúrate de tener Node.js y npm instalados en tu máquina.
-    -La conexión en tiempo real utiliza Socket.IO y la URL configurada en socketService.js. Si necesitas cambiarla, edita el archivo correspondiente.
-    -Si encuentras algún problema, consulta los logs de la consola para más detalles.
+### Notas importantes:
+- Asegúrate de tener **Node.js** y **npm** instalados en tu máquina.
+- La conexión en tiempo real utiliza **Socket.IO** y la URL configurada en `socketService.js`. Si necesitas cambiarla, edita el archivo correspondiente.
+- Si encuentras algún problema, consulta los logs de la consola para más detalles.
 
-Estructura del proyecto
+### Estructura del proyecto
 
+```plaintext
 src/
 ├── assets/                  # Recursos estáticos (imágenes, fuentes, etc.)
 ├── components/              # Componentes reutilizables
@@ -47,4 +48,5 @@ src/
 │   └── HomeView.vue
 ├── App.vue                  # Componente raíz
 └── main.js                  # Punto de entrada de la aplicación
+
 
