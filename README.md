@@ -9,14 +9,26 @@ Este proyecto consiste en un contador manual de personas desarrollado con Vue.js
 - Axios (Solicitudes HTTP)
 - Bootstrap 5 (Estilos)
 
-Instalación
+## Instalación
 
-*Brindame el proceso que debe hacer la persona que lee esto para instalar y que corra el proyecto.*
+Sigue estos pasos para instalar y ejecutar el proyecto:
+1.	Clona el repositorio en tu máquina local:
+-git clone https://github.com/enzoRam1rez/contador-manual.git
+2.	Accede al directorio del proyecto:
+-cd contador-manual
+3.	Instala las dependencias necesarias:
+-npm install
+4.	Inicia el servidor de desarrollo:
+-npm run dev
+5.	Abre el navegador y accede a la dirección proporcionada para interactuar con la aplicación.
 
-
+Notas importantes:
+    -Asegúrate de tener Node.js y npm instalados en tu máquina.
+    -La conexión en tiempo real utiliza Socket.IO y la URL configurada en socketService.js. Si necesitas cambiarla, edita el archivo correspondiente.
+    -Si encuentras algún problema, consulta los logs de la consola para más detalles.
 
 Estructura del proyecto
------------------------------------------------------------------------------
+
 src/
 ├── assets/                  # Recursos estáticos (imágenes, fuentes, etc.)
 ├── components/              # Componentes reutilizables
